@@ -1,0 +1,41 @@
+{
+  "model_name": "LogisticRegression",
+  "model_version": "1.0.0",
+  "created_at": "2026-10-05T12:15:49.380664",
+  "feature_names": [
+    "url_length",
+    "hostname_length",
+    "path_length",
+    "query_length",
+    "num_dots",
+    "num_subdomains",
+    "num_hyphens",
+    "num_digits",
+    "num_special_chars",
+    "has_ip_address",
+    "has_at_symbol",
+    "is_https",
+    "has_suspicious_token",
+    "is_shortened",
+    "digit_ratio",
+    "entropy"
+  ],
+  "feature_importances": {},
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  }
+}
